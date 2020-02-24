@@ -35,7 +35,7 @@ public protocol SegueType: ObserverType {
     
     - returns: created and configured view controller
     */
-    var toViewControllerFactory: (_ sender: T, _ context: E) -> U { get }
+    var toViewControllerFactory: (_ sender: T, _ context: Element) -> U { get }
    /**
     Represetns whether transitions should be animated or not
     */
