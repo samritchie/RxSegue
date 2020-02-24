@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2242BE031CD0DB490072B9AA"
                BuildableName = "RxSegue.framework"
-               BlueprintName = "RxSegue-iOS"
+               BlueprintName = "RxSegue"
                ReferencedContainer = "container:RxSegue.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -40,15 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2242BE031CD0DB490072B9AA"
-            BuildableName = "RxSegue.framework"
-            BlueprintName = "RxSegue-iOS"
-            ReferencedContainer = "container:RxSegue.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -61,7 +52,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2242BE031CD0DB490072B9AA"
             BuildableName = "RxSegue.framework"
-            BlueprintName = "RxSegue-iOS"
+            BlueprintName = "RxSegue"
             ReferencedContainer = "container:RxSegue.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

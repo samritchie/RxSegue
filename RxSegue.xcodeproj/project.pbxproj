@@ -96,9 +96,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2242BE031CD0DB490072B9AA /* RxSegue-iOS */ = {
+		2242BE031CD0DB490072B9AA /* RxSegue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2242BE0C1CD0DB490072B9AA /* Build configuration list for PBXNativeTarget "RxSegue-iOS" */;
+			buildConfigurationList = 2242BE0C1CD0DB490072B9AA /* Build configuration list for PBXNativeTarget "RxSegue" */;
 			buildPhases = (
 				2242BDFF1CD0DB490072B9AA /* Sources */,
 				2242BE001CD0DB490072B9AA /* Frameworks */,
@@ -109,7 +109,7 @@
 			);
 			dependencies = (
 			);
-			name = "RxSegue-iOS";
+			name = RxSegue;
 			packageProductDependencies = (
 				22CE99A1240363AB00EE513D /* RxSwift */,
 			);
@@ -148,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2242BE031CD0DB490072B9AA /* RxSegue-iOS */,
+				2242BE031CD0DB490072B9AA /* RxSegue */,
 			);
 		};
 /* End PBXProject section */
@@ -348,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2242BE0C1CD0DB490072B9AA /* Build configuration list for PBXNativeTarget "RxSegue-iOS" */ = {
+		2242BE0C1CD0DB490072B9AA /* Build configuration list for PBXNativeTarget "RxSegue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2242BE0D1CD0DB490072B9AA /* Debug */,
