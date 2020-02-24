@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		224096F324036AA500409CAE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224096EF24036AA500409CAE /* Helpers.swift */; };
+		224096F424036AA500409CAE /* SegueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224096F024036AA500409CAE /* SegueType.swift */; };
+		224096F524036AA500409CAE /* NavigationSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224096F124036AA500409CAE /* NavigationSegue.swift */; };
+		224096F624036AA500409CAE /* ModalSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224096F224036AA500409CAE /* ModalSegue.swift */; };
 		2242BE081CD0DB490072B9AA /* RxSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2242BE071CD0DB490072B9AA /* RxSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2242BE161CD0DB910072B9AA /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242BE111CD0DB910072B9AA /* Helpers.swift */; };
-		2242BE171CD0DB910072B9AA /* ModalSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242BE121CD0DB910072B9AA /* ModalSegue.swift */; };
-		2242BE181CD0DB910072B9AA /* NavigationSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242BE131CD0DB910072B9AA /* NavigationSegue.swift */; };
-		2242BE191CD0DB910072B9AA /* SegueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242BE141CD0DB910072B9AA /* SegueType.swift */; };
 		22CE99A2240363AB00EE513D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 22CE99A1240363AB00EE513D /* RxSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		224096EF24036AA500409CAE /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		224096F024036AA500409CAE /* SegueType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueType.swift; sourceTree = "<group>"; };
+		224096F124036AA500409CAE /* NavigationSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationSegue.swift; sourceTree = "<group>"; };
+		224096F224036AA500409CAE /* ModalSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalSegue.swift; sourceTree = "<group>"; };
 		2242BE041CD0DB490072B9AA /* RxSegue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSegue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2242BE071CD0DB490072B9AA /* RxSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxSegue.h; sourceTree = "<group>"; };
 		2242BE091CD0DB490072B9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2242BE111CD0DB910072B9AA /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		2242BE121CD0DB910072B9AA /* ModalSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalSegue.swift; sourceTree = "<group>"; };
-		2242BE131CD0DB910072B9AA /* NavigationSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationSegue.swift; sourceTree = "<group>"; };
-		2242BE141CD0DB910072B9AA /* SegueType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,10 +37,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		224096ED24036AA500409CAE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				224096EE24036AA500409CAE /* RxSegue */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		224096EE24036AA500409CAE /* RxSegue */ = {
+			isa = PBXGroup;
+			children = (
+				224096EF24036AA500409CAE /* Helpers.swift */,
+				224096F024036AA500409CAE /* SegueType.swift */,
+				224096F124036AA500409CAE /* NavigationSegue.swift */,
+				224096F224036AA500409CAE /* ModalSegue.swift */,
+			);
+			path = RxSegue;
+			sourceTree = "<group>";
+		};
 		2242BDFA1CD0DB490072B9AA = {
 			isa = PBXGroup;
 			children = (
-				2242BE0F1CD0DB910072B9AA /* Classes */,
+				224096ED24036AA500409CAE /* Sources */,
 				2242BE061CD0DB490072B9AA /* RxSegue */,
 				2242BE051CD0DB490072B9AA /* Products */,
 			);
@@ -61,18 +80,6 @@
 				2242BE091CD0DB490072B9AA /* Info.plist */,
 			);
 			path = RxSegue;
-			sourceTree = "<group>";
-		};
-		2242BE0F1CD0DB910072B9AA /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				2242BE111CD0DB910072B9AA /* Helpers.swift */,
-				2242BE121CD0DB910072B9AA /* ModalSegue.swift */,
-				2242BE131CD0DB910072B9AA /* NavigationSegue.swift */,
-				2242BE141CD0DB910072B9AA /* SegueType.swift */,
-			);
-			name = Classes;
-			path = Pod/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,10 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2242BE181CD0DB910072B9AA /* NavigationSegue.swift in Sources */,
-				2242BE191CD0DB910072B9AA /* SegueType.swift in Sources */,
-				2242BE161CD0DB910072B9AA /* Helpers.swift in Sources */,
-				2242BE171CD0DB910072B9AA /* ModalSegue.swift in Sources */,
+				224096F524036AA500409CAE /* NavigationSegue.swift in Sources */,
+				224096F624036AA500409CAE /* ModalSegue.swift in Sources */,
+				224096F324036AA500409CAE /* Helpers.swift in Sources */,
+				224096F424036AA500409CAE /* SegueType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
