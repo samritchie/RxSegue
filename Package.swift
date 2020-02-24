@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "RxDataSources",
+  name: "RxSegue",
   platforms: [
     .iOS(.v8), .tvOS(.v9)
   ],
